@@ -10,7 +10,7 @@ from openai import OpenAI
 api_key = st.text_input("Enter your OpenAI API Key", type="password")
 
 # Categories and options
-points = ["tips", "hacks", "news", "guide", "analogy", "joke", "compare"]
+points = ["tips", "hacks", "news", "guide", "analogy", "joke", "compare","up and downs", "funfacts"]
 time_related = ["latest", "historic", "trends"]
 locations = ["culture", "country", "region", "religions", "beliefs"]
 
